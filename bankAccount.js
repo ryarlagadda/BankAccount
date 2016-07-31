@@ -2,7 +2,7 @@ var accounts=[];
 var created=createaccount({balance: 500,username:"ravi"});
 deposit(created,amount);
 withdraw(created,amount);
-console.log("check");
+
 
 function createaccount(account)
 {
